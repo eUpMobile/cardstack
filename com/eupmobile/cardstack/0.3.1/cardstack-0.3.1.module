@@ -1,0 +1,28 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eupmobile",
+    "module": "cardstack",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cardstack-0.3.1.aar",
+          "url": "cardstack-0.3.1.aar"
+        }
+      ]
+    }
+  ]
+}
